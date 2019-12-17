@@ -3,3 +3,5 @@ node_modules
 stories
 *.json
 index.stories.json
+*.zip
+*.lock

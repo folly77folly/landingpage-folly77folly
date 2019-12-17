@@ -106,6 +106,11 @@ color: rgb(255, 255, 255);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+.img-card-rectangle{
+    height: 30vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 .card-text-head{
 text-align: left;
 font-size: 1.5vh;
@@ -143,10 +148,14 @@ border-radius: 15px;
 }
 .card-text-footer{
 text-align: left;
-font-size: 1.5vh;
+font-size: 1.8vh;
 letter-spacing: 0;
 color: #7D8597;
 opacity: 1;
+
+}
+.awesome{
+    color: #FFBE58;
 }
 .choose-container{
 /* height: 10vh; */
@@ -404,5 +413,21 @@ border-radius: 7px;
 opacity: 1;
 margin-bottom: 1vh;
 color: white;
-padding: 1vh 3vh 1vh 3vh;
+padding: 1vh 4vh 1vh 4vh;
+}
+
+.card-bg{
+    background-image: url('../images/MaskGroup.png');
+    background-repeat: no-repeat;
+    background-size: 39vh;
+    background-position: top;
+}
+
+.play-circle{
+    position: relative;
+}
+.play-triangle{
+    position: relative;
+    left: -10vh;
+
 }
